@@ -51,7 +51,7 @@ body::before{
 
 .product-img{
     width: 40%;
-    height: 700px;
+    height: 650px;
     background: #fff;
     position: relative;
     opacity: 0;
@@ -158,7 +158,7 @@ body::before{
     padding: 10px 20px;
     cursor: pointer;
     margin-left: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .btn:hover{
