@@ -4,6 +4,19 @@
         <link rel="stylesheet" href="style.css">
 
     </head>
+    <script>
+         let scoreA= 0;
+            let scoreB= 0;
+            function incScoreA(){
+                scoreA++;
+                document.getElementById("scoreA").innerHTML=scoreA;
+            }
+            function descScoreA(){
+                 scoreA--;
+                 document.getElementById("scoreA").innerHTML=scoreA;
+
+             }
+    </script>
     <body>
         <div class="product">
             <div class="product-img">
@@ -18,11 +31,17 @@
                          
                     </p>
                     <p class="price">$ 299</p>
-                    <div class="btn-and-rating-box">
-                        <div class="rating">
-                            <img src="" alt="">
-                            
+                    <div class="team-card">
+                        <p class="team-card-score" id="scoreA">0</p>
+
+                        <div class="score-card-button-container">
+                            <span class="score-card-button" onclick="descScoreA()">➕</span>
+                             <span class="score-card-button" onClick="incScoreA()">➖</span>
+                         
+        
                         </div>
+
+                    </div>
                         <button class="btn">buy now</button>
                     </div>
                 </div>
